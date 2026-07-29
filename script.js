@@ -6,70 +6,70 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você acaba de adquirir um assistente de IA pessoal avançado, capaz de gerenciar sua agenda, finanças e até mesmo oferecer conselhos. Qual a sua primeira ação?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Configurar o assistente para automatizar tarefas rotineiras e otimizar meu tempo.",
+                afirmacao: "Você abraçou a automação e busca maximizar a eficiência em sua vida diária. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Explorar suas capacidades de aconselhamento e personalização para autoconhecimento.",
+                afirmacao: "Você vê a IA como uma ferramenta para o crescimento pessoal e aprimoramento contínuo."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Seu assistente de IA sugere a criação de um projeto criativo, como escrever um livro ou compor uma música, utilizando suas ferramentas de geração de conteúdo. Como você reage?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Aceitar o desafio e colaborar com a IA para desenvolver o projeto, combinando criatividade humana e capacidade da máquina.",
+                afirmacao: "Você se tornou um pioneiro na cocriação com IA, produzindo obras inovadoras que mesclam o melhor dos dois mundos."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Preferir desenvolver o projeto de forma totalmente autônoma, usando a IA apenas como fonte de pesquisa e inspiração.",
+                afirmacao: "Você valoriza a originalidade e a expressão puramente humana, utilizando a IA como um recurso de apoio, mas não como um parceiro criativo direto."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Durante um debate online sobre o futuro da IA, surge a questão da ética e do controle sobre sistemas autônomos. Qual sua posição?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Defender a necessidade de regulamentações rigorosas e supervisão humana constante para evitar riscos e garantir o uso responsável da IA.",
+                afirmacao: "Você se tornou um defensor ativo da ética em IA, contribuindo para a criação de políticas e diretrizes que protegem a sociedade."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Argumentar que a IA deve ter mais autonomia para evoluir e resolver problemas complexos, confiando em seus próprios algoritmos para tomar decisões.",
+                afirmacao: "Você acredita no potencial transformador da IA e advoga por um desenvolvimento mais livre, focado na capacidade da máquina de aprender e se adaptar."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Seu assistente de IA detecta um padrão de consumo insustentável em sua casa e sugere otimizações para reduzir o impacto ambiental. Qual sua resposta?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Implementar as sugestões da IA para adotar um estilo de vida mais ecológico, confiando em sua análise de dados.",
+                afirmacao: "Você se tornou um exemplo de sustentabilidade, utilizando a IA para guiar suas escolhas e inspirar outros a viver de forma mais consciente."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Agradecer as sugestões, mas preferir fazer suas próprias escolhas com base em seus valores e prioridades pessoais.",
+                afirmacao: "Você mantém sua autonomia nas decisões pessoais, usando a IA como uma fonte de informação, mas não como um ditador de estilo de vida."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Em um cenário onde a IA se tornou onipresente, você percebe que muitas pessoas estão perdendo habilidades básicas por dependerem demais da tecnologia. O que você faz?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Promover a educação e o desenvolvimento de habilidades humanas essenciais, incentivando o uso consciente da IA como ferramenta de apoio, não de substituição.",
+                afirmacao: "Você se tornou um educador e mentor, ajudando as pessoas a encontrar um equilíbrio saudável entre a tecnologia e as capacidades humanas, garantindo que a IA seja uma aliada, não uma muleta."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Aceitar que a evolução tecnológica é inevitável e que as habilidades humanas precisam se adaptar a essa nova realidade, focando em novas competências que a IA não pode replicar.",
+                afirmacao: "Você se adaptou rapidamente à nova era da IA, desenvolvendo e ensinando novas habilidades que complementam a tecnologia, tornando-se um especialista em coexistência humano-IA."
             }
         ]
-    },
+    }
 ];
 
 
