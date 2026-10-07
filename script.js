@@ -9,12 +9,13 @@ const perguntas = [
         enunciado: "Você acaba de adquirir um assistente de IA pessoal avançado, capaz de gerenciar sua agenda, finanças e até mesmo oferecer conselhos. Qual a sua primeira ação?",
         alternativas: [
             {
-                texto: "Configurar o assistente para automatizar tarefas rotineiras e otimizar meu tempo.",
+                texto: "isso é assustador!",
                 afirmacao: "Você abraçou a automação e busca maximizar a eficiência em sua vida diária. "
             },
             {
                 texto: "Explorar suas capacidades de aconselhamento e personalização para autoconhecimento.",
-                afirmacao: "Você vê a IA como uma ferramenta para o crescimento pessoal e aprimoramento contínuo."
+                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
+                "Achou assustador na velocidade na qual a tecnologia está avançada.",
             }
         ]
     },
